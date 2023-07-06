@@ -1,0 +1,174 @@
+* {
+    background-color: rgb(85, 82, 82);
+    color: aliceblue;
+    font-family: 'Bacasime Antique', serif;
+
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.head {
+    padding: 30px;
+    line-height: 1px;
+    font-size: 50px;
+}
+
+.head2 {
+    padding: 10px 30px 30px 30px;
+    /* line-height:1px; */
+    font-size: 35px;
+}
+
+.p1 {
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 0px;
+
+}
+
+.p2 {
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 0px;
+
+
+}
+
+.p3 {
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 0px;
+}
+
+.p4 {
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 0px;
+}
+
+.photo1 {
+    text-align: right;
+    margin-left: 14rem;
+    width: 300px;
+    height: 280px;
+    margin-top: 50px;
+}
+
+.photo2 {
+    text-align: right;
+    margin-left: 9rem;
+    width: 300x;
+    height: 280px;
+    margin-top: 80px;
+
+}
+
+.list1 {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+a:link {
+    color: yellow;
+}
+
+
+a:visited {
+    color: rgb(159, 217, 231);
+}
+
+
+a:hover {
+    color: rgb(226, 62, 144);
+}
+
+
+a:active {
+    color: blue;
+}
+
+.opinion {
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 30px;
+
+}
+
+.form {
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+}
+
+.but {
+    margin-left: 60px;
+    width: 50px;
+    height: 60px;
+    color: aliceblue;
+}
+
+.form1 {
+    display: block;
+
+}
+
+.form2 {
+    padding: 30px;
+}
+
+.btn1 {
+    background-color: rgb(130, 235, 130);
+    color: black;
+    display: block;
+    padding: 8px;
+    size: 25px;
+    margin: 10px 0px 0px 0px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    outline: none;
+    display: block;
+    width: 30%;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid rgba(226, 241, 83, .7);
+}
+
+.table {
+    width: 100%;
+    margin: 50px;
+    border: none;
+    height: auto;
+    padding: 30px 10px 10px 10px;
+
+}
+
+.td1 {
+    width: 70%;
+    font-size: 20px;
+}
+
+.td2 {
+    width: 30%;
+    padding: 30px;
+
+}
+
+.td3 {
+    font-size: 20px;
+}

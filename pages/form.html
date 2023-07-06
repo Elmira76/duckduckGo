@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/form.css">
+        <title>Document elmira</title>
+
+    </head>
+    <body>
+        <!-- chechbox -->
+        <form action>
+            <input type="checkbox" name="vehicle" id>
+            <label for="vehicle1">i have a car</label><br>
+            <input type="checkbox" name="vehicle2">
+            <label for="vehicle2">i have a bike</label><br>
+            <input type="checkbox" name="vehicle3">
+            <label for="vehicle3">i have a boat</label><br>
+        </form><br>
+        <!-- select box -->
+        <form action>
+            <label for="cars">select the car </label>
+            <select name="cars" id="cars">
+                <option value="volvo">volvo</option>
+                <option value="benz">benz</option>
+                <option value="bmw">bmw</option>
+                <option value="audi">audi</option>
+
+            </select>
+        </form>
+        <form action></form>
+        <!-- select box -->
+        <label for="edjucation">choose the one </label>
+        <select name="edj" id="edj" size="3">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+            <option value="d">d</option>
+        </select><br><br>
+        <button type="button" onclick="console.log(`heloo sanaan`)">click me!</button>
+        <!-- fieldset -->
+        <form action>
+            <fieldset>
+                <legend>personally</legend>
+                <label for="first name ">first name </label>
+                <input type="text" id="first name" name="f name ">
+                <label for="last name ">last name </label>
+                <input type="text" id="last name " name="lname">
+            </fieldset>
+        </form>
+        <br><br>
+        <!-- listbox -->
+        <form action>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="firefox">firefox</option>
+                <option value="opera">opera</option>
+                <option value="edge">edge</option>
+                <option value="safari">safari</option>
+            </datalist>
+            <input type="submit">
+
+        </form>
+        <br><br>
+        <!-- password -->
+        <form action>
+            <label for="username">username </label><br>
+            <input type="text" id="username"><br>
+            <label for="password">password</label><br>
+            <input type="password" id="password" maxlength="6">
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+        <br>
+        <!-- radio button -->
+        <form action>
+            <input type="radio" id="html" name="fav-lan">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav-lan">
+            <label for="css">css</label><br>
+            <input type="radio" id="javascript" name="fav-lan">
+            <label for="javascript">javascript</label>
+
+        </form>
+        <!-- color -->
+        <form action>
+            <label for="fav color">select your favorite color</label>
+            <input type="color" id="fav color" name="favorite color"><br>
+            <input type="submit">
+
+        </form><br><br>
+        <!-- date -->
+        <form action>
+            <label for="birthday">birthday</label><br>
+            <input type="date" id="birthday" min="2000-12-30"><br><br>
+            <input type="submit" name id>
+        </form><br><br>
+        <!-- file -->
+        <form action>
+            <label for="my file ">select a file</label>
+            <input type="file" id="my file ">
+        </form><br><br>
+        <!-- number -->
+        <form action>
+            <label for="quantity">quantity (between1-5) </label>
+            <input type="number" id="quantity" min="1" max="5">
+        </form><br><br>
+        <!-- number -->
+        <form action>
+            <label for="quantity">quantity</label>
+            <input type="number" name="quantity" id="quantity" min="0" max="100"
+                step="5">
+        </form><br><br>
+        <!-- range -->
+        <form action>
+            <label for="volume">volume(between 0-50)</label>
+            <input type="range" id="volume" min="0" max="50">
+        </form><br><br>
+        <!-- search -->
+        <form action>
+            <label for="gsearch">search google</label>
+            <input type="search" id="gsearch"><br>
+            <input type="submit">
+
+        </form><br><br>
+        <!-- tel  -->
+        <form action>
+            <label for="phone">enter a phone number </label>
+            <input type="tel" id="phone" placeholder="123-45-6789"
+                pattern="[09-- --- ----]">
+        </form><br>
+        <!-- Times -->
+        <form action>
+            <label for="time">select a time </label>
+            <input type="time" id="time">
+
+            <!-- url  -->
+            <form action>
+                <label for="homepage">add your homepage</label>
+                <input type="url" id="home page "><br>
+                <input type="submit">
+            </form><br><br>
+            <!-- week -->
+            <form action>
+                <label for="week">select a week </label>
+                <input type="week" id="week"><br>
+                <input type="submit">
+            </form><br>
+            <!-- autocomplete -->
+            <form action autocomplete="on">
+                <label for="first name">first name </label>
+                <input type="text" id="first name">
+                <label for="last name ">last name</label>
+                <input type="text" id="last name">
+                <label for="email">email</label>
+                <input type="text" id="email" autocomplete="off">
+            </form>
+
+
+        </body>
+    </html>
